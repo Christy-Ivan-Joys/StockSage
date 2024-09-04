@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "nodemon backend/src/server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
