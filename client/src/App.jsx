@@ -1,14 +1,19 @@
 import './App.css'
-
-function App() {
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+function Routing() {
 
   return (
-    <>
-      <div>
-     
-      </div>
-    </>
+   <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route/>
+    <Route/>
+    <Route/>
+    <Route/>
+    <Route/>
+    <Route/>
+   </Routes>
   )
 }
 
-export default App
+export default Routing
